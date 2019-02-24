@@ -1,0 +1,29 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ The\ main\ method,\ used\ to\ create\ an\ instance\ of\ the\ Menu\ class,\ that\ then\ calls\ the\ menu\ method.\r\n
+comment1.params=
+comment1.target=void\ menu()
+comment1.text=\r\n\ The\ menu\ method.\ Directly\ controlled\ by\ the\ user\ and\ acts\ as\ a\ controlling\ class\ for\ the\ rest\ of\ the\ program.\ The\ user\ can\ select\ an\ option\ and\ the\r\n\ appropriate\ method\ will\ be\ called,\ which\ then\ calls\ methods\ upon\ the\ instance\ of\ the\ Tree\ class.\r\n
+comment2.params=
+comment2.target=void\ add()
+comment2.text=\r\n\ Asks\ the\ user\ for\ the\ ID\ and\ the\ mark\ of\ the\ student\ they\ wish\ to\ add.\ Inputs\ are\ validated\ for\ the\ ID\ to\ be\ >\=1\ and\ mark\ to\ be\ >\=0\ and\ <\=100.\r\n\ These\ values\ are\ then\ passed\ to\ a\ Tree\ method,\ which\ directly\ handles\ the\ addition\ of\ the\ student\ to\ the\ tree.\r\n
+comment3.params=
+comment3.target=void\ printInOrder()
+comment3.text=\r\n\ Used\ to\ print\ the\ nodes\ of\ the\ tree\ in\ numerical\ order.\ The\ tree\ cannot\ be\ printed\ if\ it\ is\ empty\ so\ this\ is\ checked\ for\ by\ checking\ if\ the\ root\ is\ null.\r\n\ The\ print\ in\ order\ method\ is\ then\ called\ from\ the\ Tree\ class\r\n
+comment4.params=
+comment4.target=void\ printPreOrder()
+comment4.text=\r\n\ Used\ to\ print\ the\ nodes\ of\ the\ tree\ in\ pre\ order\ form.\ The\ tree\ cannot\ be\ printed\ if\ it\ is\ empty\ so\ this\ is\ checked\ for\ by\ checking\ if\ the\ root\ is\ null.\r\n\ The\ print\ in\ pre\ order\ method\ is\ then\ called\ from\ the\ Tree\ class\r\n
+comment5.params=
+comment5.target=void\ printPostOrder()
+comment5.text=\r\n\ Used\ to\ print\ the\ nodes\ of\ the\ tree\ in\ post\ order\ form.\ The\ tree\ cannot\ be\ printed\ if\ it\ is\ empty\ so\ this\ is\ checked\ for\ by\ checking\ if\ the\ root\ is\ null.\r\n\ The\ print\ in\ post\ order\ method\ is\ then\ called\ from\ the\ Tree\ class\r\n
+comment6.params=
+comment6.target=void\ search()
+comment6.text=\r\n\ Used\ to\ search\ the\ tree\ for\ a\ student\ specified\ by\ their\ ID\ number.\ \r\n
+comment7.params=
+comment7.target=void\ remove()
+comment7.text=\r\n\ Used\ to\ remove\ a\ student\ i.e.\ their\ node,\ from\ the\ tree.\r\n
+comment8.params=
+comment8.target=void\ menuExit()
+comment8.text=\r\n\ Used\ to\ automatically\ end\ the\ program.\r\n
+numComments=9
